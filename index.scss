@@ -1,0 +1,21 @@
+$tabletBreakpoint: '600px';
+$desktopBreakpoint: '1025px';
+
+@function spacing($number) {
+    @return ($number * 8) + px
+}
+
+.content {
+    margin: 0px spacing(2);
+    border: 1px solid red;
+
+    @media (min-width:$tabletBreakpoint) {
+        margin: 0 spacing(4);
+    }
+
+    @media (min-width:$desktopBreakpoint) {
+        max-width: 700px;
+        margin: auto;
+    }
+
+}
