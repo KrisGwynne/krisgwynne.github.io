@@ -1,0 +1,6 @@
+@function spacing($number) {
+    @return ($number * 8) + px
+}
+
+$tabletBreakpoint: '600px';
+$desktopBreakpoint: '1025px';

@@ -1,0 +1,28 @@
+.upcoming-races-container {
+  padding: 16px;
+}
+
+.upcoming-races-flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.upcoming-race {
+  width: 100%;
+  margin-top: 16px;
+  padding: 8px 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid green;
+}
+@media (min-width: 600px) {
+  .upcoming-race {
+    width: 40%;
+  }
+}
+
+/*# sourceMappingURL=upcomingRaces.css.map */

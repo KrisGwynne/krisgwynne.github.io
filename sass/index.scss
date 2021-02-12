@@ -1,9 +1,4 @@
-$tabletBreakpoint: '600px';
-$desktopBreakpoint: '1025px';
-
-@function spacing($number) {
-    @return ($number * 8) + px
-}
+@import './helpers.scss';
 
 .content {
     margin: 0px spacing(2);
@@ -18,4 +13,9 @@ $desktopBreakpoint: '1025px';
         margin: auto;
     }
 
+}
+
+.fullwidth {
+    margin-left: calc(50% - 50vw);
+    width: 100vw;
 }
