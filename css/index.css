@@ -1,6 +1,5 @@
 .content {
   margin: 0px 16px;
-  border: 1px solid red;
 }
 @media (min-width: 600px) {
   .content {
@@ -14,9 +13,15 @@
   }
 }
 
-.fullwidth {
+.full-width {
   margin-left: calc(50% - 50vw);
   width: 100vw;
+}
+
+body {
+  background: url(../images/hero.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 /*# sourceMappingURL=index.css.map */

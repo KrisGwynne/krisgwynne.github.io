@@ -2,7 +2,6 @@
 
 .content {
     margin: 0px spacing(2);
-    border: 1px solid red;
 
     @media (min-width:$tabletBreakpoint) {
         margin: 0 spacing(4);
@@ -15,7 +14,13 @@
 
 }
 
-.fullwidth {
+.full-width {
     margin-left: calc(50% - 50vw);
     width: 100vw;
+}
+
+body {
+    background: url(../images/hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }

@@ -7,23 +7,25 @@
     <link rel="stylesheet" href="./css/cssStrip.css">
     <link rel="stylesheet" href="./css/hero.css">
     <link rel="stylesheet" href="./css/upcomingRaces.css">
+    <link rel="stylesheet" href="./css/modal.css">
     <title>Document</title>
 </head>
 <body>
     <main class="content">
-        <section class="hero-container">
+        <section class="hero-container full-width" >
+                <img class="logo" src="./images/formulaOne.png"/>
             <!-- <img class="hero-img" src="./images/hero.jpg"> -->
-            <h1 class="title">Formula 1</h1>
+            <!-- <h1 class="title">Formula 1</h1> -->
         </section>
-        <section>
+        <section class="upcoming-races">
             <h2 class="title">Upcoming Races</h2>
             <div class="upcoming-races-container">
                 <div class="upcoming-races-flex">
-                    <div class="upcoming-race">
+                    <div class="upcoming-race" id="upcoming-race-bahrain">
                         <h4>Bahrain</h4>
                         <p>26-28 March</p>
                     </div>
-                    <div class="upcoming-race">
+                    <div class="upcoming-race" id="upcoming-race-italy">
                         <h4>Italy</h4>
                         <p>16-18 April</p>
                     </div>
@@ -34,6 +36,15 @@
                 </div>
             </div>
         </section>
+        <section class="modal">
+            <span class="close-btn">&times;</span>
+            <div class="modal-content">
+                <!-- Maybe insert here through JS? -->
+                <img class="modal-track-layout" />
+            </div>
+        </section>
     </main>
+    <script>var exports = {};</script>
+    <script src="./index.js" ></script>
 </body>
 </html>
