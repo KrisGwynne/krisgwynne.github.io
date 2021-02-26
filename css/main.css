@@ -3,6 +3,26 @@
   margin: 0;
 }
 
+.content {
+  margin: 0px 16px;
+}
+@media (min-width: 600px) {
+  .content {
+    margin: 0 32px;
+  }
+}
+@media (min-width: 1025px) {
+  .content {
+    max-width: 700px;
+    margin: auto;
+  }
+}
+
+.full-width {
+  margin-left: calc(50% - 50vw);
+  width: 100vw;
+}
+
 .hero-container {
   height: 20vh;
   text-align: center;
@@ -118,26 +138,6 @@
   .upcoming-race {
     width: 40%;
   }
-}
-
-.content {
-  margin: 0px 16px;
-}
-@media (min-width: 600px) {
-  .content {
-    margin: 0 32px;
-  }
-}
-@media (min-width: 1025px) {
-  .content {
-    max-width: 700px;
-    margin: auto;
-  }
-}
-
-.full-width {
-  margin-left: calc(50% - 50vw);
-  width: 100vw;
 }
 
 body {

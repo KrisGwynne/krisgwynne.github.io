@@ -1,7 +1,11 @@
-@import './abstracts/helpers.scss';
+@import './abstracts/variables';
+@import './abstracts/mixins';
+@import './abstracts/functions';
 
 @import './base/cssStrip.scss';
 @import './base/typography.scss';
+
+@import './layout/content';
 
 @import './components/hero.scss';
 @import './components/modal.scss';
