@@ -1,5 +1,5 @@
-@import './helpers.scss';
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+// @import './helpers.scss';
+// @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 .content {
     margin: 0px spacing(2);
@@ -21,7 +21,7 @@
 }
 
 body {
-    font-family: 'Open Sans';
+    font-family: $font-family;
     background: url(../images/hero.jpg);
     background-size: cover;
     background-repeat: no-repeat;
