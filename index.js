@@ -55,6 +55,10 @@ const addOnClickUpcomingRace  = (data, race) => {
             return;
         }
         modal.querySelector('.modal-track-layout').setAttribute('src', data[race].trackSrc);
+        modal.querySelector('.modal-race-circuit').innerHTML = `Circuit: ${data[race].circuit}`;
+        modal.querySelector('.modal-race-length').innerHTML = `Length: ${data[race].length}`;
+        modal.querySelector('.modal-race-laps').innerHTML = `Laps: ${data[race].laps}`;
+        modal.querySelector('.modal-race-race-distance').innerHTML = `Race distance: ${data[race].raceDistance}`;
         modal.querySelector('.modal-title').innerHTML = `${race} track layout`;
 
         await fillWeatherData(modal, race);

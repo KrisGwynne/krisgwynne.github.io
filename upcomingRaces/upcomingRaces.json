@@ -1,5 +1,9 @@
 {
     "bahrain": {
-        "trackSrc": "/images/tracks/bahrain.png"
+        "trackSrc": "/images/tracks/bahrain.png",
+        "circuit": "Bahrain International Circuit",
+        "length": "5.412km",
+        "laps": 57,
+        "raceDistance": "308.484km"
     }
 }

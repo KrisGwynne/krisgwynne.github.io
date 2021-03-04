@@ -23,6 +23,12 @@
   width: 100vw;
 }
 
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
 .hero-container {
   height: 20vh;
   text-align: center;
@@ -57,12 +63,13 @@
 }
 
 .modal-container {
+  position: relative;
   margin-top: 10vh;
   margin-bottom: 10vh;
   height: 80vh;
   overflow: hidden;
   text-align: center;
-  background-color: #f5e4e4a6;
+  background-color: white;
   border: 8px solid #e20403;
   border-radius: 5px;
   animation-name: animatetop;
@@ -80,7 +87,8 @@
   }
 }
 .modal-close-btn {
-  float: right;
+  position: absolute;
+  right: 0;
   color: black;
   font-size: 44px;
   font-weight: bold;
@@ -91,6 +99,7 @@
 .modal-content {
   display: flex;
   flex-direction: column;
+  margin: 16px;
 }
 
 .modal-title {
@@ -98,8 +107,22 @@
 }
 
 .modal-track-layout {
+  margin-top: 16px;
   max-height: 80%;
-  max-width: 100%;
+  max-width: 65%;
+}
+
+.modal-track-layout-info {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.modal-track-layout-info p {
+  margin-top: 16px;
+}
+
+.modal-track-info {
+  margin-top: 16px;
 }
 
 .upcoming-races {
