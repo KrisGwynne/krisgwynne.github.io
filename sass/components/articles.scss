@@ -1,0 +1,32 @@
+.articles {
+    margin-top: spacing(8);
+    margin-bottom: spacing(8);
+    padding: 0 spacing(8);
+
+    & h2 {
+        text-align: center;
+        margin-bottom: spacing(4);
+    }
+}
+
+.story {
+    border: 2px solid #b90000;
+    border-radius: 4px;
+    // padding: spacing(2);
+    width: 40%;
+    overflow: hidden;
+
+    & img {
+        width: 110%;
+        position: relative;
+    }
+}
+
+.story-content {
+    padding: spacing(2);
+    & h4 {
+        font-weight: lighter;
+        color: red;
+        margin-bottom: spacing(1);
+    }
+}

@@ -1,3 +1,14 @@
+.hero {
+    background: url("/images/hero.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    padding-bottom: spacing(8);
+
+    border-bottom: 16px solid #b90000;
+}
+
 .hero-container {
     height: 20vh;
     text-align: center;
