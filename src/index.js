@@ -1,4 +1,3 @@
-// import "../sass/main.scss";
 import Modal from "./modal";
 
 
